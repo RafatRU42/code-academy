@@ -15,8 +15,11 @@ const Navbar = () => {
     }
     return (
         <div>
-            this is navbar
+            <p className='text-orange-700'>this is navbar</p>
+            <p className='text-blue-700'>this is navbar</p>
+            <p className='text-orange-700'>this is navbar</p>
             <button onClick={handleNightMode}>night Mode </button>
+            <h1>this is h1 tag</h1>
         </div>
     );
 };
